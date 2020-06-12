@@ -7,7 +7,7 @@ def index():
     return 'Hello world'
 
 @app.route('/eller')
-def index():
+def index2():
     return 'Schmutzzulage im Wert von 5k€'
 
 if __name__ == '__main__':
