@@ -26,5 +26,3 @@ def home():
 def eller():
     return render_template('eller.html', title='Eller')
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
